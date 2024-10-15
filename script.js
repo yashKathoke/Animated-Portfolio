@@ -19,8 +19,8 @@ function followCircle() {
     circle.style.transform = `translate(${e.clientX}px, ${e.clientY}px) scale(${xscale}, ${yscale})`;
 
     timer = setTimeout(() => {
-      circle.style.transform = `translate(${e.clientX - 10}px, ${
-        e.clientY - 10
+      circle.style.transform = `translate(${e.clientX }px, ${
+        e.clientY 
       }px) scale(1,1)`;
     }, 100);
   });
